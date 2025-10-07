@@ -1,0 +1,20 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // 사용자 프로필 이미지
+    match /users/{userId}/profile/{fileName} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // 사용자 독서 노트 이미지
+    match /users/{userId}/notes/{fileName} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // 책 커버 이미지 (읽기만 가능)
+    match /books/covers/{fileName} {
+      allow read: if true;
+      allow write: if false; // 관리자 계정에서만 업로드
+    }
+  }
+}

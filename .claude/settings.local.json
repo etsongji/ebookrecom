@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app:*)",
+      "Bash(firebase --version)",
+      "Bash(firebase login:*)",
+      "Bash(firebase projects:list:*)",
+      "Bash(firebase projects:create:*)",
+      "Bash(firebase:*)",
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "Bash(vercel:*)",
+      "Bash(npx vercel:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

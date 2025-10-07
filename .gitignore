@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+firebase/node_modules/
+backend/__pycache__/
+backend/venv/
+backend/.env
+
+# Build outputs
+frontend/.next/
+frontend/out/
+firebase/lib/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Firebase
+.firebaserc.old
+firebase-debug.log*
+firestore-debug.log*
+
+# Python
+*.pyc
+__pycache__/
+.python-version

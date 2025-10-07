@@ -1,0 +1,49 @@
+{
+  "name": "gutenberg-book-recommendation",
+  "version": "1.0.0",
+  "description": "Project Gutenberg 기반 책 추천 서비스",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\" \"npm run dev:emulators\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python api.py",
+    "dev:emulators": "firebase emulators:start",
+    "build": "npm run build:frontend && npm run build:functions",
+    "build:frontend": "cd frontend && npm run build",
+    "build:functions": "cd firebase && npm run build",
+    "deploy": "firebase deploy",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:functions": "firebase deploy --only functions",
+    "deploy:firestore": "firebase deploy --only firestore",
+    "crawl:daily": "cd backend && python main.py daily",
+    "crawl:full": "cd backend && python main.py full",
+    "crawl:incremental": "cd backend && python main.py incremental",
+    "test": "echo \"테스트 스크립트가 아직 구현되지 않았습니다.\" && exit 1"
+  },
+  "keywords": [
+    "project-gutenberg",
+    "book-recommendation", 
+    "english-learning",
+    "transcription",
+    "next.js",
+    "firebase",
+    "python-crawler"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/gutenberg-book-recommendation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/gutenberg-book-recommendation/issues"
+  },
+  "homepage": "https://github.com/your-username/gutenberg-book-recommendation#readme"
+}
