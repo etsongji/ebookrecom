@@ -410,7 +410,7 @@ function shuffleArrayWithSeed(array: Book[], seed: number): Book[] {
   return shuffled;
 }
 
-export default function handler(req: NextRequest) {
+export function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);
     const level = searchParams.get('level') || 'all';

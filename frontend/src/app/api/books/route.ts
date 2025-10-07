@@ -17,7 +17,7 @@ interface Book {
 // Gutenberg API에서 실제 데이터를 가져오는 함수
 async function fetchGutenbergBooks(query?: string, limit: number = 20): Promise<Book[]> {
   try {
-    let apiUrl = 'https://gutendex.com/books/?';
+    const apiUrl = 'https://gutendex.com/books/?';
     const params = new URLSearchParams();
     
     if (query) {
@@ -38,7 +38,7 @@ async function fetchGutenbergBooks(query?: string, limit: number = 20): Promise<
 
     const data = await response.json();
     
-    const books: Book[] = data.results?.slice(0, limit).map((book: any) => {
+    const books: Book[] = data.results?.slice(0, limit).map((book: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
       // 작가명 추출
       const author = book.authors?.[0]?.name || 'Unknown Author';
       
@@ -180,7 +180,7 @@ function getFallbackBooks(limit: number): Book[] {
   return fallbackBooks.slice(0, limit);
 }
 
-export default async function handler(req: NextRequest) {
+export async function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);
     const query = searchParams.get('q');

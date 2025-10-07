@@ -152,7 +152,7 @@ function getDailyPick(date: string): DailyPick {
 
 // 특별한 날짜별 추천 (기념일 등)
 function getSpecialDateRecommendation(date: string): DailyPick | null {
-  const [year, month, day] = date.split('-');
+  const [, month, day] = date.split('-');
   const monthDay = `${month}-${day}`;
   
   // 특별한 날짜별 추천
@@ -177,7 +177,7 @@ function getSpecialDateRecommendation(date: string): DailyPick | null {
   return null;
 }
 
-export default function handler(req: NextRequest) {
+export function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);
     const inputDate = searchParams.get('date');
