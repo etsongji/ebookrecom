@@ -28,7 +28,17 @@ export default function RecommendationsPage() {
   const fetchRecommendations = useCallback(async () => {
     setLoading(true);
     try {
-      // 모킹 데이터 사용
+      // 실제 API 호출
+      const today = new Date().toISOString().split('T')[0];
+      const response = await fetch(`/api/recommendations?level=${selectedLevel}&limit=10&date=${today}`);
+      const data = await response.json();
+      
+      if (data.success) {
+        setRecommendations(data.recommendations);
+        return;
+      }
+      
+      // API 실패시 폴백 데이터
       const mockData: RecommendationData = {
         beginner: [
           {

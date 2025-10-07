@@ -1,8 +1,46 @@
 'use client';
 
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
+
+interface DailyPick {
+  id: string;
+  title: string;
+  author: string;
+  reason: string;
+  difficulty_score: number;
+  url: string;
+  rating: number;
+  level: string;
+  quote: string;
+  date: string;
+}
 
 export default function Home() {
+  const [dailyPick, setDailyPick] = useState<DailyPick | null>(null);
+  const [dayMessage, setDayMessage] = useState('');
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchDailyPick();
+  }, []);
+
+  const fetchDailyPick = async () => {
+    try {
+      const response = await fetch('/api/daily-pick');
+      const data = await response.json();
+      
+      if (data.success) {
+        setDailyPick(data.dailyPick);
+        setDayMessage(data.dayMessage);
+      }
+    } catch (error) {
+      console.error('Failed to fetch daily pick:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* 헤더 */}
@@ -71,6 +109,69 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* 오늘의 추천 섹션 */}
+      {!loading && dailyPick && (
+        <section className="px-4 py-16 sm:px-6 lg:px-8 bg-gradient-to-r from-purple-50 to-pink-50">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold text-gray-900 mb-2">📖 오늘의 특별 추천</h2>
+              <p className="text-lg text-gray-600">{dayMessage}</p>
+              <p className="text-sm text-gray-500">{dailyPick.date}</p>
+            </div>
+            
+            <div className="bg-white rounded-2xl shadow-xl p-8 border-l-4 border-purple-500">
+              <div className="flex flex-col lg:flex-row gap-8">
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className={`px-3 py-1 text-sm rounded-full ${
+                      dailyPick.level === 'beginner' ? 'bg-green-100 text-green-800' :
+                      dailyPick.level === 'intermediate' ? 'bg-yellow-100 text-yellow-800' :
+                      dailyPick.level === 'advanced' ? 'bg-red-100 text-red-800' :
+                      'bg-purple-100 text-purple-800'
+                    }`}>
+                      {dailyPick.level === 'beginner' ? '초급' : 
+                       dailyPick.level === 'intermediate' ? '중급' : 
+                       dailyPick.level === 'advanced' ? '고급' : '필사용'}
+                    </span>
+                    <div className="flex items-center text-sm text-gray-500">
+                      <span className="text-yellow-500 mr-1">⭐</span>
+                      {dailyPick.rating.toFixed(1)}
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{dailyPick.title}</h3>
+                  <p className="text-lg text-gray-700 mb-4">저자: {dailyPick.author}</p>
+                  <p className="text-gray-600 mb-6 leading-relaxed">{dailyPick.reason}</p>
+                  
+                  {dailyPick.quote && (
+                    <blockquote className="border-l-4 border-purple-300 pl-4 italic text-gray-600 mb-6">
+                      &ldquo;{dailyPick.quote}&rdquo;
+                    </blockquote>
+                  )}
+                  
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <a
+                      href={dailyPick.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-semibold"
+                    >
+                      📖 지금 읽기
+                    </a>
+                    <Link
+                      href="/recommendations"
+                      className="inline-flex items-center justify-center px-6 py-3 bg-white text-purple-600 border-2 border-purple-600 rounded-lg hover:bg-purple-50 transition-colors font-semibold"
+                    >
+                      더 많은 추천 보기
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* 주요 기능 섹션 */}
       <section className="px-4 py-16 sm:px-6 lg:px-8 bg-white">

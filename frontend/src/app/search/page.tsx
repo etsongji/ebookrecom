@@ -28,7 +28,23 @@ export default function SearchPage() {
     
     setLoading(true);
     try {
-      // 모킹 데이터 사용 (실제로는 외부 API나 서버리스 함수 사용 예정)
+      // 실제 API 호출
+      const params = new URLSearchParams({
+        q: query,
+        level: level,
+        limit: '20'
+      });
+      
+      const response = await fetch(`/api/books?${params}`);
+      const data = await response.json();
+      
+      if (data.books && data.books.length > 0) {
+        setBooks(data.books);
+        setSearched(true);
+        return;
+      }
+      
+      // API 실패시 폴백 데이터
       const mockResults: Book[] = [
         {
           id: "11",
