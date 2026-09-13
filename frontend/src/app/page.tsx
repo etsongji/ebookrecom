@@ -4,26 +4,14 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState, type FormEvent } from 'react';
 import PencilMeter from '../components/PencilMeter';
-import { LEVEL_MAX, levelOf } from '../lib/levels';
-
-interface DailyPick {
-  id: string;
-  title: string;
-  author: string;
-  reason: string;
-  difficulty_score: number;
-  url: string;
-  rating: number;
-  level: string;
-  quote: string;
-  date: string;
-}
+import { LEVEL_MAX, formatMinutes, levelOf } from '../lib/levels';
+import type { DailyPick } from '../lib/types';
 
 type LoadStatus = 'loading' | 'ready' | 'error';
 
-// The handwriting line models copying just the opening phrase, not the whole quote.
-function openingPhrase(quote: string, maxWords = 8): string {
-  const firstClause = quote.split(/[,;:—]/)[0].trim();
+// The handwriting line models copying just the opening phrase, not the whole passage.
+function openingPhrase(passage: string, maxWords = 8): string {
+  const firstClause = passage.split(/[,;:—\n]/)[0].trim();
   const words = firstClause.split(/\s+/);
   return words.length > maxWords ? `${words.slice(0, maxWords).join(' ')}…` : firstClause;
 }
@@ -33,6 +21,7 @@ export default function Home() {
   const [query, setQuery] = useState('');
   const [dailyPick, setDailyPick] = useState<DailyPick | null>(null);
   const [dayMessage, setDayMessage] = useState('');
+  const [date, setDate] = useState('');
   const [status, setStatus] = useState<LoadStatus>('loading');
 
   useEffect(() => {
@@ -41,11 +30,11 @@ export default function Home() {
     (async () => {
       try {
         const response = await fetch('/api/daily-pick', { signal: controller.signal });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
-        if (!data.dailyPick) throw new Error('Daily pick missing in response');
-        setDailyPick(data.dailyPick);
+        if (!response.ok || !data.success || !data.dailyPick) throw new Error(data.message ?? `HTTP ${response.status}`);
+        setDailyPick(data.dailyPick as DailyPick);
         setDayMessage(data.dayMessage ?? '');
+        setDate(data.date ?? '');
         setStatus('ready');
       } catch (error) {
         if (controller.signal.aborted) return;
@@ -104,9 +93,9 @@ export default function Home() {
           <h2 id="daily-title" className="section-title">
             오늘의 필사
           </h2>
-          {dailyPick && (
+          {date && (
             <p className="meta">
-              {dailyPick.date}
+              {date}
               {dayMessage && ` · ${dayMessage}`}
             </p>
           )}
@@ -125,12 +114,18 @@ export default function Home() {
             <div>
               {pickLevel && (
                 <p className="book-level meta">
-                  {pickLevel.label}
-                  {pickLevel.step !== null && <PencilMeter value={pickLevel.step} max={LEVEL_MAX} />}
+                  {pickLevel.key} {pickLevel.name}
+                  <PencilMeter value={pickLevel.step} max={LEVEL_MAX} />
                 </p>
               )}
               <h3 className="display book-title">{dailyPick.title}</h3>
               <p className="book-author">{dailyPick.author}</p>
+              {dailyPick.minutes && (
+                <p className="book-meta meta">
+                  <span>읽기 {formatMinutes(dailyPick.minutes)}</span>
+                  {dailyPick.words && <span>{dailyPick.words.toLocaleString('ko-KR')}단어</span>}
+                </p>
+              )}
               <p className="book-reason">{dailyPick.reason}</p>
               <div className="actions">
                 <a className="btn btn-primary" href={dailyPick.url} target="_blank" rel="noopener noreferrer">
@@ -142,15 +137,17 @@ export default function Home() {
               </div>
             </div>
 
-            {dailyPick.quote && (
-              <figure className="copy">
-                <blockquote className="display copy-en">{dailyPick.quote}</blockquote>
-                <p className="hand copy-hand" aria-hidden="true">
-                  {openingPhrase(dailyPick.quote)}
-                </p>
-                <figcaption className="meta">원문 아래 줄에 직접 따라 써 보세요</figcaption>
-              </figure>
-            )}
+            <figure className="copy">
+              <blockquote className="display copy-en" style={{ whiteSpace: 'pre-line' }}>
+                {dailyPick.quote}
+              </blockquote>
+              <p className="hand copy-hand" aria-hidden="true">
+                {openingPhrase(dailyPick.quote)}
+              </p>
+              <figcaption className="meta">
+                {dailyPick.quoteKind === 'famous' ? '이 책의 유명한 문장' : '원문에서 고른 문장'} · 아래 줄에 따라 써 보세요
+              </figcaption>
+            </figure>
           </article>
         )}
       </section>
@@ -166,7 +163,7 @@ export default function Home() {
             <span className="display step-no">1</span>
             <div>
               <h3>수준에 맞는 책 고르기</h3>
-              <p>초급·중급·고급 추천에서 지금 읽기 편한 책을 고릅니다.</p>
+              <p>L1 입문부터 L5 심화까지 다섯 단계 가운데 지금 읽기 편한 책을 고릅니다.</p>
             </div>
           </li>
           <li>

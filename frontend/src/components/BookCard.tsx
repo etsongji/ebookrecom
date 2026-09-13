@@ -5,7 +5,7 @@ interface BookCardProps {
   title: string;
   author: string;
   url: string;
-  level?: string;
+  level?: number;
   reason?: string;
   meta?: string[];
 }
@@ -17,8 +17,8 @@ export default function BookCard({ title, author, url, level, reason, meta = [] 
     <article className="card book">
       {info && (
         <p className="book-level meta">
-          {info.label}
-          {info.step !== null && <PencilMeter value={info.step} max={LEVEL_MAX} />}
+          {info.key} {info.name}
+          <PencilMeter value={info.step} max={LEVEL_MAX} />
         </p>
       )}
       <h3 className="display book-title">{title}</h3>

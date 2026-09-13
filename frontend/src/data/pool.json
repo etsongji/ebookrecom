@@ -1,0 +1,1556 @@
+{
+ "generatedAt": "2026-09-13",
+ "wordsPerMinute": 150,
+ "method": "Prose levels rank books within this shelf by Flesch-Kincaid grade, share of uncommon words (outside the shelf top 3000), average word length and length; poetry and drama levels are set by hand.",
+ "books": [
+  {
+   "id": 11,
+   "title": "Alice's Adventures in Wonderland",
+   "author": "Lewis Carroll",
+   "track": "novel",
+   "level": 1,
+   "copy": false,
+   "words": 26773,
+   "minutes": 178,
+   "fk": 7.3,
+   "rare": 0.063,
+   "downloads": 104902,
+   "reason": "말장난과 엉뚱한 논리가 가득한 고전. 소리 내어 읽으면 재미가 커집니다.",
+   "quote": "Curiouser and curiouser!",
+   "excerpts": [
+    "That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn!",
+    "As she said this, she looked up, and there was the Cat again, sitting on a branch of a tree.",
+    "This was quite a new idea to Alice, and she thought it over a little before she made her next remark."
+   ]
+  },
+  {
+   "id": 55,
+   "title": "The Wonderful Wizard of Oz",
+   "author": "L. Frank Baum",
+   "track": "novel",
+   "level": 1,
+   "copy": false,
+   "words": 39766,
+   "minutes": 265,
+   "fk": 6.7,
+   "rare": 0.059,
+   "downloads": 42548,
+   "reason": "도로시와 친구들의 여정. 문장이 쉽고 장면이 선명해 원서 입문용으로 많이 읽힙니다.",
+   "quote": "There is no place like home",
+   "excerpts": [
+    "She reached down and picked up the shoes, and after shaking the dust out of them handed them to Dorothy.",
+    "Then he asked me what you looked like, and when I mentioned your silver shoes he was very much interested.",
+    "They slept that night on the grass, with nothing but the stars over them; and they rested very well indeed."
+   ]
+  },
+  {
+   "id": 113,
+   "title": "The Secret Garden",
+   "author": "Frances Hodgson Burnett",
+   "track": "novel",
+   "level": 1,
+   "copy": false,
+   "words": 81410,
+   "minutes": 543,
+   "fk": 5.1,
+   "rare": 0.076,
+   "downloads": 38597,
+   "reason": "버려진 정원을 되살리며 마음도 회복하는 아이들의 성장 이야기입니다.",
+   "excerpts": [
+    "After that there seemed nothing different for a long time—or at least it seemed a long time to her.",
+    "Even if he found out then and took it away from her she would have had that much at least.",
+    "She wondered and wondered in those few moments if there was any reality in that other thing Dickon had said."
+   ]
+  },
+  {
+   "id": 16,
+   "title": "Peter Pan",
+   "author": "J. M. Barrie",
+   "track": "novel",
+   "level": 1,
+   "copy": false,
+   "words": 47519,
+   "minutes": 317,
+   "fk": 6.2,
+   "rare": 0.097,
+   "downloads": 34401,
+   "reason": "자라지 않는 소년 피터 팬. 첫 문장부터 인상적인 판타지입니다.",
+   "quote": "All children, except one, grow up.",
+   "excerpts": [
+    "Peter was so glad that he rose from the floor, where they had been sitting, and hurried to the window.",
+    "Their first thought was that if Peter was not going he had probably changed his mind about letting them go.",
+    "He was exactly the same as ever, and Wendy saw at once that he still had all his first teeth."
+   ]
+  },
+  {
+   "id": 271,
+   "title": "Black Beauty",
+   "author": "Anna Sewell",
+   "track": "novel",
+   "level": 1,
+   "copy": false,
+   "words": 60245,
+   "minutes": 402,
+   "fk": 8.6,
+   "rare": 0.066,
+   "downloads": 30053,
+   "reason": "말의 눈으로 쓴 소설. 1인칭 서술을 익히기 좋습니다.",
+   "excerpts": [
+    "At length, one morning, my master got on my back and rode me round the meadow on the soft grass.",
+    "We had hardly turned on the common, when we caught sight again of the green habit flying on before us.",
+    "You ruined the last horse and broke his wind, and you are going to ruin this in the same way."
+   ]
+  },
+  {
+   "id": 236,
+   "title": "The Jungle Book",
+   "author": "Rudyard Kipling",
+   "track": "story",
+   "level": 1,
+   "copy": false,
+   "words": 51738,
+   "minutes": 345,
+   "fk": 5.8,
+   "rare": 0.107,
+   "downloads": 27897,
+   "reason": "늑대에게 자란 소년 모글리와 정글 동물들의 이야기 모음입니다.",
+   "excerpts": [
+    "When he was not learning he sat out in the sun and slept, and ate and went to sleep again.",
+    "Shere Khan’s plan is to wait for thee at the village gate this evening--for thee and for no one else.",
+    "Toomai leaned forward and looked, and he felt that the forest was awake below him--awake and alive and crowded."
+   ]
+  },
+  {
+   "id": 14838,
+   "title": "The Tale of Peter Rabbit",
+   "author": "Beatrix Potter",
+   "track": "story",
+   "level": 1,
+   "copy": false,
+   "words": 1002,
+   "minutes": 7,
+   "fk": 6.3,
+   "rare": 0.053,
+   "downloads": 26955,
+   "reason": "말썽꾸러기 토끼 피터의 짧은 모험. 그림책 한 권 분량이라 원서 첫 경험으로 좋습니다.",
+   "excerpts": [
+    "Peter was most dreadfully frightened; he rushed all over the garden, for he had forgotten the way back to the gate.",
+    "It would have been a beautiful thing to hide in, if it had not had so much water in it.",
+    "Peter never stopped running or looked behind him till he got home to the big fir-tree."
+   ]
+  },
+  {
+   "id": 1952,
+   "title": "The Yellow Wallpaper",
+   "author": "Charlotte Perkins Gilman",
+   "track": "story",
+   "level": 1,
+   "copy": false,
+   "words": 6173,
+   "minutes": 41,
+   "fk": 5.9,
+   "rare": 0.076,
+   "downloads": 24156,
+   "reason": "노란 벽지 방에 갇힌 화자의 일기 형식 단편. 짧지만 여운이 깁니다.",
+   "excerpts": [
+    "But I can write when she is out, and see her a long way off from these windows.",
+    "I had no intention of telling him it was because of the wallpaper—he would make fun of me.",
+    "It is the same woman, I know, for she is always creeping, and most women do not creep by daylight."
+   ]
+  },
+  {
+   "id": 12,
+   "title": "Through the Looking-Glass",
+   "author": "Lewis Carroll",
+   "track": "novel",
+   "level": 1,
+   "copy": false,
+   "words": 30150,
+   "minutes": 201,
+   "fk": 5.6,
+   "rare": 0.07,
+   "downloads": 13106,
+   "reason": "거울 속 체스판 세계로 들어간 앨리스의 두 번째 모험입니다.",
+   "excerpts": [
+    "Alice was so astonished that she could not speak for a minute: it quite seemed to take her breath away.",
+    "Alice said in a melancholy voice; and at the thought of her loneliness two large tears came rolling down her cheeks.",
+    "It was evidently more than he could manage by himself; however, she managed to shake him out of it at last."
+   ]
+  },
+  {
+   "id": 146,
+   "title": "A Little Princess",
+   "author": "Frances Hodgson Burnett",
+   "track": "novel",
+   "level": 1,
+   "copy": false,
+   "words": 67152,
+   "minutes": 448,
+   "fk": 5.8,
+   "rare": 0.085,
+   "downloads": 6262,
+   "reason": "하루아침에 모든 것을 잃고도 품위를 지키는 소녀 세라의 이야기입니다.",
+   "excerpts": [
+    "When she spoke it was in a quiet, steady voice; she held her head up, and everybody listened to her.",
+    "It had been all the easier to forget her because she had been suddenly called home for a few weeks.",
+    "Mr. Carmichael felt rather restless, and he rose and began to pace the room with a thoughtful, though uncertain face."
+   ]
+  },
+  {
+   "id": 2781,
+   "title": "Just So Stories",
+   "author": "Rudyard Kipling",
+   "track": "story",
+   "level": 1,
+   "copy": false,
+   "words": 29837,
+   "minutes": 199,
+   "fk": 6.7,
+   "rare": 0.084,
+   "downloads": 5314,
+   "reason": "‘코끼리 코는 왜 길까?’ 같은 질문에 엉뚱하게 답하는 옛이야기 모음입니다.",
+   "excerpts": [
+    "Presently the Parsee came by and found the skin, and he smiled one smile that ran all round his face two times.",
+    "At present it is only pictures, and, as we have seen to-day, pictures are not always properly understood.",
+    "I am the smallest of thirty thousand brothers, and our home is at the bottom of the sea."
+   ]
+  },
+  {
+   "id": 25609,
+   "title": "A Child's Garden of Verses",
+   "author": "Robert Louis Stevenson",
+   "track": "poetry",
+   "level": 1,
+   "copy": true,
+   "words": 8978,
+   "minutes": 60,
+   "fk": 8.3,
+   "rare": 0.118,
+   "downloads": 4174,
+   "reason": "어린 시절을 노래한 짧은 동시 모음. 운율이 또렷해 따라 쓰기 쉽습니다.",
+   "excerpts": [
+    "Little Indian, Sioux or Crow,\nLittle frosty Eskimo,\nLittle Turk or Japanee,\nOh! don't you wish that you were me?",
+    "Whenever Auntie moves around,\nHer dresses make a curious sound,\nThey trail behind her up the floor,\nAnd trundle after through the door.",
+    "This whistle we made (and how clearly it sounds!)\nBy the side of a field at the end of the grounds.\nOf a branch of a plane, with a knife of my own,\nIt was nursie who made it, and nursie alone!"
+   ]
+  },
+  {
+   "id": 1450,
+   "title": "Pollyanna",
+   "author": "Eleanor H. Porter",
+   "track": "novel",
+   "level": 1,
+   "copy": false,
+   "words": 57161,
+   "minutes": 381,
+   "fk": 5,
+   "rare": 0.087,
+   "downloads": 3618,
+   "reason": "무엇에서든 기뻐할 거리를 찾는 소녀 폴리애나의 이야기입니다.",
+   "excerpts": [
+    "The next moment the window was wide open, and Pollyanna was leaning far out, drinking in the fresh, sweet air.",
+    "The next moment Pollyanna found herself alone with a very cross-looking man lying flat on his back in bed.",
+    "And once more Pollyanna told her story--this time to a man who listened with tender eyes and understanding ears."
+   ]
+  },
+  {
+   "id": 11757,
+   "title": "The Velveteen Rabbit",
+   "author": "Margery Williams Bianco",
+   "track": "story",
+   "level": 1,
+   "copy": false,
+   "words": 3990,
+   "minutes": 27,
+   "fk": 6.3,
+   "rare": 0.066,
+   "downloads": 3595,
+   "reason": "아이의 사랑을 받아 진짜가 되고 싶은 헝겊 토끼 이야기. 짧고 따뜻합니다.",
+   "excerpts": [
+    "One evening, when the Boy was going to bed, he couldn't find the china dog that always slept with him.",
+    "He even began to lose his shape, and he scarcely looked like a rabbit any more, except to the Boy.",
+    "Of what use was it to be loved and lose one's beauty and become Real if it all ended like this?"
+   ]
+  },
+  {
+   "id": 46409,
+   "title": "Heidi",
+   "author": "Johanna Spyri",
+   "track": "novel",
+   "level": 1,
+   "copy": false,
+   "words": 66851,
+   "minutes": 446,
+   "fk": 8.6,
+   "rare": 0.057,
+   "downloads": 3459,
+   "reason": "알프스 산골 소녀 하이디의 이야기. 자연 묘사가 풍부합니다.",
+   "excerpts": [
+    "Heidi did not often weep, but when she did she could not get over her trouble for a long while.",
+    "You ought to be ashamed of yourself, Sebastian, a great strong lad like you, to run away from a ghost!",
+    "The sky was dark blue, and not a single cloud was to be seen from one horizon to the other."
+   ]
+  },
+  {
+   "id": 345,
+   "title": "Dracula",
+   "author": "Bram Stoker",
+   "track": "novel",
+   "level": 2,
+   "copy": false,
+   "words": 162290,
+   "minutes": 1082,
+   "fk": 6.7,
+   "rare": 0.084,
+   "downloads": 103941,
+   "reason": "일기와 편지로 엮은 흡혈귀 소설. 여러 화자의 문체를 비교할 수 있습니다.",
+   "excerpts": [
+    "I could not pity her, for I knew now what had become of her child, and she was better dead.",
+    "I held my door open as he went away, and watched him go into his room and close the door.",
+    "I lay a while, but could not quite sleep, so I got out and looked out of the window again."
+   ]
+  },
+  {
+   "id": 43,
+   "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+   "author": "Robert Louis Stevenson",
+   "track": "novel",
+   "level": 2,
+   "copy": false,
+   "words": 25787,
+   "minutes": 172,
+   "fk": 9.3,
+   "rare": 0.114,
+   "downloads": 97689,
+   "reason": "한 사람 안의 선과 악을 다룬 짧은 고딕 소설입니다.",
+   "excerpts": [
+    "A maid servant living alone in a house not far from the river, had gone upstairs to bed about eleven.",
+    "It was but for one minute that I saw him, but the hair stood upon my head like quills.",
+    "He cannot have been disposed of in so short a space; he must be still alive, he must have fled!"
+   ]
+  },
+  {
+   "id": 2852,
+   "title": "The Hound of the Baskervilles",
+   "author": "Arthur Conan Doyle",
+   "track": "novel",
+   "level": 2,
+   "copy": false,
+   "words": 59634,
+   "minutes": 398,
+   "fk": 6.6,
+   "rare": 0.099,
+   "downloads": 75965,
+   "reason": "황무지의 전설과 사냥개를 둘러싼 셜록 홈스 장편입니다.",
+   "excerpts": [
+    "Dr. Mortimer looked strangely at us for an instant, and his voice sank almost to a whisper as he answered.",
+    "He spoke with a smile, but I seemed to read in his eyes that he took the matter more seriously.",
+    "It would indeed be a triumph for me if I could run him to earth where my master had failed."
+   ]
+  },
+  {
+   "id": 2591,
+   "title": "Grimms' Fairy Tales",
+   "author": "Jacob Grimm",
+   "track": "story",
+   "level": 2,
+   "copy": false,
+   "words": 101632,
+   "minutes": 678,
+   "fk": 8,
+   "rare": 0.069,
+   "downloads": 45468,
+   "reason": "헨젤과 그레텔, 라푼젤 등 익숙한 동화를 영어 번역으로 읽습니다.",
+   "excerpts": [
+    "When they had eaten and drank, and were very merry, the old king said he would tell them a tale.",
+    "Long before the end of the hour the work was quite done, and all flew out again at the windows.",
+    "He listened to them, and when he became aware of what they were saying, he grew very thoughtful and sad."
+   ]
+  },
+  {
+   "id": 76,
+   "title": "Adventures of Huckleberry Finn",
+   "author": "Mark Twain",
+   "track": "novel",
+   "level": 2,
+   "copy": false,
+   "words": 113349,
+   "minutes": 756,
+   "fk": 6.1,
+   "rare": 0.106,
+   "downloads": 40966,
+   "reason": "뗏목을 타고 강을 내려가는 헉과 짐의 여정. 당시의 차별적 표현이 나오므로 시대 배경과 함께 읽기를 권합니다.",
+   "excerpts": [
+    "She said it was a mean practice and wasn’t clean, and I must try to not do it any more.",
+    "I never felt easy till the raft was two mile below there and out in the middle of the Mississippi.",
+    "It warn’t no use to say any more; because when he said he’d do a thing, he always done it."
+   ]
+  },
+  {
+   "id": 174,
+   "title": "The Picture of Dorian Gray",
+   "author": "Oscar Wilde",
+   "track": "novel",
+   "level": 2,
+   "copy": false,
+   "words": 79774,
+   "minutes": 532,
+   "fk": 5.1,
+   "rare": 0.107,
+   "downloads": 38258,
+   "reason": "늙지 않는 청년과 대신 늙어 가는 초상화. 재치 있는 경구가 가득합니다.",
+   "quote": "The only way to get rid of a temptation is to yield to it.",
+   "excerpts": [
+    "There are many things that we would throw away if we were not afraid that others might pick them up.",
+    "As we were sitting together, suddenly there came into her eyes a look that I had never seen there before.",
+    "Do you think, then, that a man who has once committed a murder could possibly do the same crime again?"
+   ]
+  },
+  {
+   "id": 5200,
+   "title": "Metamorphosis",
+   "author": "Franz Kafka",
+   "track": "story",
+   "level": 2,
+   "copy": false,
+   "words": 22049,
+   "minutes": 147,
+   "fk": 11.3,
+   "rare": 0.072,
+   "downloads": 35947,
+   "reason": "어느 날 아침 벌레로 변한 그레고르의 이야기. 짧은 분량으로 깊은 질문을 던집니다.",
+   "excerpts": [
+    "Because he had to open the door in this way, it was already wide open before he could be seen.",
+    "The maid, of course, had locked herself in her kitchen so that Grete would have to go and answer it.",
+    "His sister began to play; father and mother paid close attention, one on each side, to the movements of her hands."
+   ]
+  },
+  {
+   "id": 120,
+   "title": "Treasure Island",
+   "author": "Robert Louis Stevenson",
+   "track": "novel",
+   "level": 2,
+   "copy": false,
+   "words": 69088,
+   "minutes": 461,
+   "fk": 6.9,
+   "rare": 0.105,
+   "downloads": 31027,
+   "reason": "해적, 보물 지도, 배신이 이어지는 모험 소설의 원조입니다.",
+   "quote": "Fifteen men on the dead man's chest",
+   "excerpts": [
+    "It was the second death I had known, and the sorrow of the first was still fresh in my heart.",
+    "And with that, this brave fellow turned his back directly on the cook and set off walking for the beach.",
+    "And this the more surprised me, for I thought he had never shown himself so cunning as he did then."
+   ]
+  },
+  {
+   "id": 1934,
+   "title": "Songs of Innocence and of Experience",
+   "author": "William Blake",
+   "track": "poetry",
+   "level": 2,
+   "copy": true,
+   "words": 5570,
+   "minutes": 37,
+   "fk": 5.8,
+   "rare": 0.114,
+   "downloads": 30547,
+   "reason": "순수와 경험을 대비한 짧은 시들. ‘The Tyger’ 같은 유명한 시가 실려 있습니다.",
+   "excerpts": [
+    "Piping down the valleys wild,\nPiping songs of pleasant glee,\nOn a cloud I saw a child,\nAnd he laughing said to me:",
+    "Troubled, wildered, and forlorn,\nDark, benighted, travel-worn,\nOver many a tangled spray,\nAll heart-broke, I heard her say:",
+    "Soon my Angel came again;\nI was armed, he came in vain;\nFor the time of youth was fled,\nAnd grey hairs were on my head."
+   ]
+  },
+  {
+   "id": 11339,
+   "title": "Aesop's Fables",
+   "author": "Aesop",
+   "track": "story",
+   "level": 2,
+   "copy": false,
+   "words": 41520,
+   "minutes": 277,
+   "fk": 8.9,
+   "rare": 0.091,
+   "downloads": 30268,
+   "reason": "한두 쪽짜리 우화 모음. 하루 한 편씩 읽고 교훈을 영어로 말해 보기 좋습니다.",
+   "excerpts": [
+    "A change, however, took place in the weather, and there came a sharp frost which killed the unfortunate Swallow.",
+    "No sooner did the Lion see this than he fell upon them one by one and killed them in turn.",
+    "The Swan is said to sing but once in its life--when it knows that it is about to die."
+   ]
+  },
+  {
+   "id": 1597,
+   "title": "Andersen's Fairy Tales",
+   "author": "H. C. Andersen",
+   "track": "story",
+   "level": 2,
+   "copy": false,
+   "words": 56115,
+   "minutes": 374,
+   "fk": 7.5,
+   "rare": 0.088,
+   "downloads": 29788,
+   "reason": "인어공주, 미운 오리 새끼 같은 안데르센 동화를 한 편씩 끊어 읽을 수 있습니다.",
+   "excerpts": [
+    "He travelled all over the world in hopes of finding such a lady; but there was always something wrong.",
+    "All passed so quickly, there was so much going on around him, the Tree quite forgot to look to himself.",
+    "Everything out-of-doors was covered with ice and snow, and the wind blew so that it cut the face."
+   ]
+  },
+  {
+   "id": 46,
+   "title": "A Christmas Carol",
+   "author": "Charles Dickens",
+   "track": "novel",
+   "level": 2,
+   "copy": false,
+   "words": 28849,
+   "minutes": 192,
+   "fk": 6.5,
+   "rare": 0.109,
+   "downloads": 18624,
+   "reason": "구두쇠 스크루지가 세 유령을 만나 변하는 이야기. 분량이 짧아 함께 읽기에 알맞습니다.",
+   "excerpts": [
+    "But they and their spirit voices faded together; and the night became as it had been when he walked home.",
+    "This was not addressed to Scrooge, or to any one whom he could see, but it produced an immediate effect.",
+    "There was a chair set close beside the child, and there were signs of some one having been there, lately."
+   ]
+  },
+  {
+   "id": 2814,
+   "title": "Dubliners",
+   "author": "James Joyce",
+   "track": "story",
+   "level": 2,
+   "copy": false,
+   "words": 68047,
+   "minutes": 454,
+   "fk": 6,
+   "rare": 0.116,
+   "downloads": 11556,
+   "reason": "더블린 사람들의 일상을 담은 단편 15편. 한 편씩 깊이 읽기 좋습니다.",
+   "excerpts": [
+    "Her dress swung as she moved her body and the soft rope of her hair tossed from side to side.",
+    "Mr Lyons jumped off the table, went to the fire, took his bottle and carried it back to the table.",
+    "Probably in the school they had gone to as girls that kind of work had been taught for one year."
+   ]
+  },
+  {
+   "id": 2500,
+   "title": "Siddhartha",
+   "author": "Hermann Hesse",
+   "track": "novel",
+   "level": 2,
+   "copy": false,
+   "words": 39320,
+   "minutes": 262,
+   "fk": 8.9,
+   "rare": 0.092,
+   "downloads": 8859,
+   "reason": "깨달음을 찾아 떠나는 청년 싯다르타의 여정. 문장이 간결하고 명상적입니다.",
+   "excerpts": [
+    "Siddhartha learned a lot when he was with the Samanas, many ways leading away from the self he learned to go.",
+    "Deep was his sleep and without dreams, for a long time he had not known such a sleep any more.",
+    "He took Siddhartha’s hand, led him to the seat by the bank, sat down with him, smiled at the river."
+   ]
+  },
+  {
+   "id": 2554,
+   "title": "Crime and Punishment",
+   "author": "Fyodor Dostoyevsky",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 205295,
+   "minutes": 1369,
+   "fk": 6.3,
+   "rare": 0.096,
+   "downloads": 139348,
+   "reason": "살인을 저지른 청년의 죄책감과 내면을 따라가는 심리 소설입니다.",
+   "excerpts": [
+    "He took up his hat and went out, this time without dread of meeting anyone; he had forgotten his dread.",
+    "He glanced at her often while he was talking, but only for a moment and looked away again at once.",
+    "Amalia Ivanovna stood looking more stupid than anyone, with her mouth wide open, unable to make out what had happened."
+   ]
+  },
+  {
+   "id": 1661,
+   "title": "The Adventures of Sherlock Holmes",
+   "author": "Arthur Conan Doyle",
+   "track": "story",
+   "level": 3,
+   "copy": false,
+   "words": 105302,
+   "minutes": 702,
+   "fk": 6.7,
+   "rare": 0.1,
+   "downloads": 119794,
+   "reason": "단편 12편으로 된 추리 소설. 한 편씩 끊어 읽기 좋습니다.",
+   "excerpts": [
+    "Behind there was nothing remarkable, save that the passage window could be reached from the top of the coach-house.",
+    "If they had come from Pondicherry in a steamer they would have arrived almost as soon as their letter.",
+    "This press, as I have already explained, has got out of order, and we wish your advice upon the subject."
+   ]
+  },
+  {
+   "id": 244,
+   "title": "A Study in Scarlet",
+   "author": "Arthur Conan Doyle",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 43764,
+   "minutes": 292,
+   "fk": 7.1,
+   "rare": 0.116,
+   "downloads": 65902,
+   "reason": "홈스와 왓슨이 처음 만나는 첫 번째 사건입니다.",
+   "excerpts": [
+    "It was one of four which stood back some little way from the street, two being occupied and two empty.",
+    "There would be no reason in his eyes why the finding of the ring should be connected with the murder.",
+    "He was white to the very lips, and had sunk down on the stone against which he had been leaning."
+   ]
+  },
+  {
+   "id": 23,
+   "title": "Narrative of the Life of Frederick Douglass",
+   "author": "Frederick Douglass",
+   "track": "nonfiction",
+   "level": 3,
+   "copy": false,
+   "words": 41148,
+   "minutes": 274,
+   "fk": 9,
+   "rare": 0.123,
+   "downloads": 58389,
+   "reason": "노예로 태어나 글을 깨치고 자유를 얻은 더글러스의 자서전입니다.",
+   "excerpts": [
+    "I was myself within the circle; so that I neither saw nor heard as those without might see and hear.",
+    "He gave her away once to his sister; but, being a poor gift, she was not disposed to keep her.",
+    "I am glad of an opportunity to express, as far as words can, the love and gratitude I bear him."
+   ]
+  },
+  {
+   "id": 64317,
+   "title": "The Great Gatsby",
+   "author": "F. Scott Fitzgerald",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 48684,
+   "minutes": 325,
+   "fk": 6.7,
+   "rare": 0.12,
+   "downloads": 53454,
+   "reason": "1920년대 뉴욕의 화려함과 허무를 그린 소설. 마지막 문장이 유명합니다.",
+   "quote": "So we beat on, boats against the current, borne back ceaselessly into the past.",
+   "excerpts": [
+    "I was going to wear it tonight, but it was too big in the bust and had to be altered.",
+    "Then I went out of the room and down the marble steps into the rain, leaving them there together.",
+    "On the last afternoon before he went abroad, he sat with Daisy in his arms for a long, silent time."
+   ]
+  },
+  {
+   "id": 74,
+   "title": "The Adventures of Tom Sawyer",
+   "author": "Mark Twain",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 72184,
+   "minutes": 481,
+   "fk": 5.8,
+   "rare": 0.124,
+   "downloads": 44072,
+   "reason": "미시시피 강가 마을 소년 톰의 장난과 모험. 미국 구어체를 맛볼 수 있습니다.",
+   "excerpts": [
+    "There was a gate, but as a general thing he was too crowded for time to make use of it.",
+    "Sid had better judgment than to utter the thought that was in his mind as he left the house.",
+    "It might be three feet deep, it might be a hundred—there was no passing it at any rate."
+   ]
+  },
+  {
+   "id": 215,
+   "title": "The Call of the Wild",
+   "author": "Jack London",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 32195,
+   "minutes": 215,
+   "fk": 7.3,
+   "rare": 0.149,
+   "downloads": 29853,
+   "reason": "썰매 개 벅이 야생의 본능을 되찾아 가는 짧고 강렬한 모험 소설입니다.",
+   "excerpts": [
+    "It was the wolf manner of fighting, to strike and leap away; but there was more to it than this.",
+    "This had been strong upon him when he pulled in to the bank, and it had not departed from him.",
+    "He sprang to his feet and ran up the bank ahead of the men to the point of his previous departure."
+   ]
+  },
+  {
+   "id": 45,
+   "title": "Anne of Green Gables",
+   "author": "L. M. Montgomery",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 103543,
+   "minutes": 690,
+   "fk": 6.1,
+   "rare": 0.104,
+   "downloads": 25806,
+   "reason": "상상력 넘치는 고아 소녀 앤의 성장기. 풍부한 형용사 표현을 익힐 수 있습니다.",
+   "excerpts": [
+    "I used to lie awake at nights and imagine things like that, because I didn’t have time in the day.",
+    "In a very short space of time Anne came flying back up the lane with tears rolling down her cheeks.",
+    "Aunt Josephine sent us out a big box with ever so many things in it--and this is for you."
+   ]
+  },
+  {
+   "id": 1400,
+   "title": "Great Expectations",
+   "author": "Charles Dickens",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 186686,
+   "minutes": 1245,
+   "fk": 8.1,
+   "rare": 0.101,
+   "downloads": 25306,
+   "reason": "고아 소년 핍이 신사가 되기까지의 성장 소설입니다.",
+   "excerpts": [
+    "When it broke out again, the soldiers made for it at a greater rate than ever, and we after them.",
+    "You have never told me when you have got your hair cut, but I have had senses to perceive it.",
+    "It is strange to know no more about either, and particularly you, than I was able to tell last night."
+   ]
+  },
+  {
+   "id": 910,
+   "title": "White Fang",
+   "author": "Jack London",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 73068,
+   "minutes": 487,
+   "fk": 6.1,
+   "rare": 0.138,
+   "downloads": 24837,
+   "reason": "늑대개 화이트 팽이 사람과 관계를 맺어 가는 이야기. 『야성의 부름』과 짝을 이룹니다.",
+   "excerpts": [
+    "They were meat, and it was hungry; and it would like to go in and eat them if it dared.",
+    "As the hunting man-animals went out and came back, so she would come back to the village some time.",
+    "He could not forget in a day all the evil that had been wrought him at the hands of men."
+   ]
+  },
+  {
+   "id": 844,
+   "title": "The Importance of Being Earnest",
+   "author": "Oscar Wilde",
+   "track": "drama",
+   "level": 3,
+   "copy": false,
+   "words": 20737,
+   "minutes": 138,
+   "fk": 4.6,
+   "rare": 0.092,
+   "downloads": 22795,
+   "reason": "이름을 둘러싼 오해로 웃음을 주는 희극. 대사가 짧고 재치 있습니다.",
+   "excerpts": []
+  },
+  {
+   "id": 35,
+   "title": "The Time Machine",
+   "author": "H. G. Wells",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 32747,
+   "minutes": 218,
+   "fk": 7.5,
+   "rare": 0.133,
+   "downloads": 17297,
+   "reason": "시간 여행 기계로 먼 미래에 간 과학자의 이야기. 짧은 SF 고전입니다.",
+   "excerpts": [
+    "Yesterday it was so high, yesterday night it fell, then this morning it rose again, and so gently upward to here.",
+    "The view I had of it was as much as one could see in the burning of a match.",
+    "They say life is a dream, a precious poor dream at times—but I can’t stand another that won’t fit."
+   ]
+  },
+  {
+   "id": 219,
+   "title": "Heart of Darkness",
+   "author": "Joseph Conrad",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 38774,
+   "minutes": 258,
+   "fk": 6.7,
+   "rare": 0.138,
+   "downloads": 14771,
+   "reason": "콩고 강을 거슬러 오르는 항해로 제국주의의 어둠을 드러낸 중편입니다.",
+   "quote": "The horror! The horror!",
+   "excerpts": [
+    "They live in a world of their own, and there has never been anything like it, and never can be.",
+    "I don’t like work—no man does—but I like what is in the work—the chance to find yourself.",
+    "I kept the bundle of papers given me by Kurtz, not knowing exactly what to do with it."
+   ]
+  },
+  {
+   "id": 58585,
+   "title": "The Prophet",
+   "author": "Kahlil Gibran",
+   "track": "poetry",
+   "level": 3,
+   "copy": true,
+   "words": 12506,
+   "minutes": 83,
+   "fk": 5.6,
+   "rare": 0.101,
+   "downloads": 13967,
+   "reason": "사랑, 일, 자유 같은 삶의 주제를 짧은 산문시로 풀어낸 책입니다.",
+   "excerpts": [
+    "And others came also and entreated him.\nBut he answered them not. He only bent\nhis head; and those who stood near saw\nhis tears falling upon his breast.",
+    "For they too are gatherers of fruit and\nfrankincense, and that which they bring,\nthough fashioned of dreams, is raiment\nand food for your soul.",
+    "And in their fear of seeking and\nremembering they shun all pleasures,\nlest they neglect the spirit or offend\nagainst it."
+   ]
+  },
+  {
+   "id": 105,
+   "title": "Persuasion",
+   "author": "Jane Austen",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 83689,
+   "minutes": 558,
+   "fk": 10.3,
+   "rare": 0.088,
+   "downloads": 11337,
+   "reason": "8년 전 거절했던 사랑과 다시 마주한 앤의 이야기입니다.",
+   "excerpts": [
+    "Suppose I were to be seized of a sudden in some dreadful way, and not able to ring the bell!",
+    "It now became necessary for the party to consider what was best to be done, as to their general situation.",
+    "He had always a home with us whenever he chose it; he was always welcome; he was like a brother."
+   ]
+  },
+  {
+   "id": 5230,
+   "title": "The Invisible Man",
+   "author": "H. G. Wells",
+   "track": "novel",
+   "level": 3,
+   "copy": false,
+   "words": 49171,
+   "minutes": 328,
+   "fk": 6,
+   "rare": 0.134,
+   "downloads": 6943,
+   "reason": "투명 인간이 된 과학자의 몰락을 그린 짧은 장편입니다.",
+   "excerpts": [
+    "They wanted him to lead the way upstairs to the room, but he didn’t seem to be in any hurry.",
+    "He heard the servant answer the door, and waited for her feet on the staircase, but she did not come.",
+    "At last I had a breathing space and rubbed my feet clean with my hands, and so got away altogether."
+   ]
+  },
+  {
+   "id": 1065,
+   "title": "The Raven",
+   "author": "Edgar Allan Poe",
+   "track": "poetry",
+   "level": 3,
+   "copy": true,
+   "words": 1096,
+   "minutes": 7,
+   "fk": 13,
+   "rare": 0.086,
+   "downloads": 2692,
+   "reason": "‘Nevermore’가 되풀이되는 음악적인 시. 소리 내어 읽으며 필사하기 좋습니다.",
+   "quote": "Quoth the Raven",
+   "excerpts": [
+    "Once upon a midnight dreary, while I pondered, weak and weary,\nOver many a quaint and curious volume of forgotten lore—\nWhile I nodded, nearly napping, suddenly there came a tapping,\nAs of some one gently rapping, rapping at my chamber door.",
+    "Back into the chamber turning, all my soul within me burning,\nSoon again I heard a tapping something louder than before.\n“Surely,” said I, “surely that is something at my window lattice;\nLet me see, then, what thereat is and this mystery explore—",
+    "This I sat engaged in guessing, but no syllable expressing\nTo the fowl whose fiery eyes now burned into my bosom’s core;\nThis and more I sat divining, with my head at ease reclining\nOn the cushion’s velvet lining that the lamp-light gloated o’er,"
+   ]
+  },
+  {
+   "id": 2678,
+   "title": "Poems by Emily Dickinson, Series One",
+   "author": "Emily Dickinson",
+   "track": "poetry",
+   "level": 3,
+   "copy": true,
+   "words": 8573,
+   "minutes": 57,
+   "fk": 6.8,
+   "rare": 0.18,
+   "downloads": 1467,
+   "reason": "짧은 행에 깊은 생각을 담은 디킨슨의 시. 한 편씩 옮겨 적기 알맞습니다.",
+   "excerpts": [
+    "Success is counted sweetest\nBy those who ne'er succeed.\nTo comprehend a nectar\nRequires sorest need.",
+    "Each was to each the sealed church,\nPermitted to commune this time,\nLest we too awkward show\nAt supper of the Lamb.",
+    "I think the hemlock likes to stand\nUpon a marge of snow;\nIt suits his own austerity,\nAnd satisfies an awe"
+   ]
+  },
+  {
+   "id": 3021,
+   "title": "A Boy's Will",
+   "author": "Robert Frost",
+   "track": "poetry",
+   "level": 3,
+   "copy": true,
+   "words": 5807,
+   "minutes": 39,
+   "fk": 9.9,
+   "rare": 0.127,
+   "downloads": 887,
+   "reason": "로버트 프로스트의 첫 시집. 자연과 일상을 담백하게 노래합니다.",
+   "excerpts": [
+    "THEY leave us so to the way we took,\nAs two in whom they were proved mistaken,\nThat we sit sometimes in the wayside nook,\nWith mischievous, vagrant, seraphic look,",
+    "NOW close the windows and hush all the fields;\nIf the trees must, let them silently toss;\nNo bird is singing now, and if there is,\nBe it my loss."
+   ]
+  },
+  {
+   "id": 1342,
+   "title": "Pride and Prejudice",
+   "author": "Jane Austen",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 127169,
+   "minutes": 848,
+   "fk": 9.7,
+   "rare": 0.094,
+   "downloads": 198164,
+   "reason": "엘리자베스와 다아시의 오해와 사랑. 반어적인 대화가 백미입니다.",
+   "quote": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+   "excerpts": [
+    "He could not help seeing that you were about five times as pretty as every other woman in the room.",
+    "At length there was nothing more to be said; the ladies drove on, and the others returned into the house.",
+    "She was convinced that she could have been happy with him, when it was no longer likely they should meet."
+   ]
+  },
+  {
+   "id": 1513,
+   "title": "Romeo and Juliet",
+   "author": "William Shakespeare",
+   "track": "drama",
+   "level": 4,
+   "copy": false,
+   "words": 26122,
+   "minutes": 174,
+   "fk": 3.1,
+   "rare": 0.14,
+   "downloads": 116214,
+   "reason": "원수 가문 두 연인의 비극. 운문과 산문이 섞인 대사를 비교해 볼 수 있습니다.",
+   "excerpts": []
+  },
+  {
+   "id": 1260,
+   "title": "Jane Eyre",
+   "author": "Charlotte Brontë",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 188598,
+   "minutes": 1257,
+   "fk": 8.5,
+   "rare": 0.13,
+   "downloads": 95505,
+   "reason": "스스로 삶을 선택하는 여성 제인의 1인칭 성장 소설입니다.",
+   "quote": "I am no bird; and no net ensnares me",
+   "excerpts": [
+    "He held out his hand; I gave him mine: he took it first in one, then in both his own.",
+    "He could not do worse: he ruined his health and his estate amongst the worst men and the worst women.",
+    "I wondered what you thought of me, or if you ever thought of me, and resolved to find this out."
+   ]
+  },
+  {
+   "id": 37106,
+   "title": "Little Women",
+   "author": "Louisa May Alcott",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 192610,
+   "minutes": 1284,
+   "fk": 9,
+   "rare": 0.108,
+   "downloads": 86348,
+   "reason": "네 자매의 성장과 꿈을 그린 소설. 인물마다 말투가 달라 읽는 재미가 있습니다.",
+   "excerpts": [
+    "He sat down near me, and I began to talk to him; for he looked poor and tired and anxious.",
+    "It seemed asleep, but all of a sudden it gave a little cry, and trembled, and then lay very still.",
+    "When all was settled, with fear and trembling she told Laurie; but to her surprise he took it very quietly."
+   ]
+  },
+  {
+   "id": 2680,
+   "title": "Meditations",
+   "author": "Marcus Aurelius, Emperor of Rome",
+   "track": "nonfiction",
+   "level": 4,
+   "copy": true,
+   "words": 71887,
+   "minutes": 479,
+   "fk": 10.1,
+   "rare": 0.117,
+   "downloads": 75988,
+   "reason": "로마 황제가 스스로에게 쓴 짧은 성찰 모음. 한 문단씩 필사하기 좋습니다.",
+   "excerpts": [
+    "That it being so that my mother was to die young, yet she lived with me all her latter years.",
+    "As they were in the days of those whom we have buried, so are they now also, and no otherwise.",
+    "Of these the two former, are so far forth thine, as that thou art bound to take care for them."
+   ]
+  },
+  {
+   "id": 21839,
+   "title": "Sense and Sensibility",
+   "author": "Jane Austen",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 122666,
+   "minutes": 818,
+   "fk": 11.1,
+   "rare": 0.091,
+   "downloads": 56986,
+   "reason": "이성적인 언니와 감성적인 동생, 두 자매의 사랑과 선택을 그립니다.",
+   "excerpts": [
+    "The village of Barton was chiefly on one of these hills, and formed a pleasant view from the cottage windows.",
+    "You must be very much altered indeed since we parted, if that could be the case, and you not there.",
+    "She met him with a hand that would be taken, and a voice that expressed the affection of a sister."
+   ]
+  },
+  {
+   "id": 2002,
+   "title": "Sonnets from the Portuguese",
+   "author": "Elizabeth Barrett Browning",
+   "track": "poetry",
+   "level": 4,
+   "copy": true,
+   "words": 5604,
+   "minutes": 37,
+   "fk": 8.6,
+   "rare": 0.125,
+   "downloads": 56670,
+   "reason": "사랑을 노래한 소네트 44편. 14행 형식을 익히기 좋습니다.",
+   "excerpts": []
+  },
+  {
+   "id": 103,
+   "title": "Around the World in Eighty Days",
+   "author": "Jules Verne",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 63855,
+   "minutes": 426,
+   "fk": 8.9,
+   "rare": 0.142,
+   "downloads": 50697,
+   "reason": "80일 안에 세계를 일주하겠다는 내기. 여행지와 교통수단 어휘가 많습니다.",
+   "excerpts": [
+    "The songs gradually died away; occasionally cries were heard in the distance, until at last all was silence again.",
+    "Passepartout got up and proceeded, as well as he could with the rolling of the steamer, to the after-deck.",
+    "Passepartout put his head out of the door, but saw nothing to cause the delay; no station was in view."
+   ]
+  },
+  {
+   "id": 768,
+   "title": "Wuthering Heights",
+   "author": "Emily Brontë",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 117079,
+   "minutes": 781,
+   "fk": 7.8,
+   "rare": 0.124,
+   "downloads": 47901,
+   "reason": "황량한 언덕 저택에서 벌어지는 격정적인 사랑과 복수의 이야기입니다.",
+   "excerpts": [
+    "Heathcliff gradually fell back into the shelter of the bed, as I spoke; finally sitting down almost concealed behind it.",
+    "I will have it back; and I’ll have his gold too; and then his blood; and hell shall have his soul!",
+    "She must have had a warm heart, when she loved her father so, to give so much to me."
+   ]
+  },
+  {
+   "id": 28054,
+   "title": "The Brothers Karamazov",
+   "author": "Fyodor Dostoyevsky",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 352763,
+   "minutes": 2352,
+   "fk": 6.4,
+   "rare": 0.1,
+   "downloads": 45782,
+   "reason": "아버지의 죽음을 둘러싼 세 형제의 이야기. 신앙과 자유를 묻는 대작입니다.",
+   "excerpts": [
+    "The elder raised his hand and would have made the sign of the cross over Ivan from where he stood.",
+    "But all the town was up in arms against me after the funeral, and people even refused to see me.",
+    "I won’t tell of it, of course, but I shall have nothing more to do with you for a time."
+   ]
+  },
+  {
+   "id": 98,
+   "title": "A Tale of Two Cities",
+   "author": "Charles Dickens",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 137483,
+   "minutes": 917,
+   "fk": 8,
+   "rare": 0.115,
+   "downloads": 38643,
+   "reason": "프랑스 혁명기의 런던과 파리를 오가는 역사 소설입니다.",
+   "quote": "It was the best of times, it was the worst of times",
+   "excerpts": [
+    "The worst will be over in a moment; it is but passing the room-door, and the worst is over.",
+    "I have looked it in the face, in my different way; look it in the face, you, in your different way.",
+    "So far all goes well with us--much, much better than it has of late gone with many poor souls."
+   ]
+  },
+  {
+   "id": 1399,
+   "title": "Anna Karenina",
+   "author": "Tolstoy, Leo, graf",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 351934,
+   "minutes": 2346,
+   "fk": 7.9,
+   "rare": 0.104,
+   "downloads": 19931,
+   "reason": "사랑과 사회 규범 사이에서 흔들리는 안나의 이야기. 첫 문장이 유명합니다.",
+   "quote": "Happy families are all alike; every unhappy family is unhappy in its own way.",
+   "excerpts": [
+    "You are one of those delightful women in whose company it’s sweet to be silent as well as to talk.",
+    "He remembered every point, and did not think it necessary to go over in his memory what he would say.",
+    "But it was not worth while to get in, they were quite near the place, and all walked on together."
+   ]
+  },
+  {
+   "id": 158,
+   "title": "Emma",
+   "author": "Jane Austen",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 161119,
+   "minutes": 1074,
+   "fk": 9.6,
+   "rare": 0.083,
+   "downloads": 17131,
+   "reason": "남의 연애를 주선하려다 일을 꼬이게 만드는 에마의 이야기입니다.",
+   "excerpts": [
+    "I should like to see Emma in love, and in some doubt of a return; it would do her good.",
+    "I was sitting near the door—Elizabeth saw me directly; but he did not; he was busy with the umbrella.",
+    "It is not Swisserland, but it will be something for a young man so much in want of a change."
+   ]
+  },
+  {
+   "id": 730,
+   "title": "Oliver Twist",
+   "author": "Charles Dickens",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 159718,
+   "minutes": 1065,
+   "fk": 8.3,
+   "rare": 0.116,
+   "downloads": 15066,
+   "reason": "런던 뒷골목에 내던져진 고아 올리버의 이야기. 당시 사회 문제를 엿볼 수 있습니다.",
+   "excerpts": [
+    "Besides, it was so early that there was very little fear of his being seen; so he walked on.",
+    "Oliver turned, for an instant, when they reached the door, in the hope of meeting a look from the girl.",
+    "There was a will, which your mother destroyed, leaving the secret and the gain to you at her own death."
+   ]
+  },
+  {
+   "id": 36,
+   "title": "The War of the Worlds",
+   "author": "H. G. Wells",
+   "track": "novel",
+   "level": 4,
+   "copy": false,
+   "words": 60627,
+   "minutes": 404,
+   "fk": 8.3,
+   "rare": 0.148,
+   "downloads": 13735,
+   "reason": "화성인의 지구 침공을 목격자의 눈으로 생생하게 기록한 SF입니다.",
+   "excerpts": [
+    "I found myself alone, and saw the people on the other side of the pit running off, Stent among them.",
+    "In another moment he was cut down, and a great body of water and steam shot high in the air.",
+    "Then a heavy body—I knew too well what—was dragged across the floor of the kitchen towards the opening."
+   ]
+  },
+  {
+   "id": 1322,
+   "title": "Leaves of Grass",
+   "author": "Walt Whitman",
+   "track": "poetry",
+   "level": 4,
+   "copy": true,
+   "words": 124042,
+   "minutes": 827,
+   "fk": 15,
+   "rare": 0.208,
+   "downloads": 10700,
+   "reason": "자유시의 출발점. 긴 호흡의 행을 따라 쓰며 리듬을 느껴 보세요.",
+   "excerpts": [
+    "The red aborigines,\nLeaving natural breaths, sounds of rain and winds, calls as of birds\nand animals in the woods, syllabled to us for names,\nOkonee, Koosa, Ottawa, Monongahela, Sauk, Natchez, Chattahoochee,",
+    "There by the furnace, and there by the anvil,\nBehold thy sturdy blacksmiths swinging their sledges,\nOverhand so steady, overhand they turn and fall with joyous clank,\nLike a tumult of laughter.",
+    "While through the interior vistas,\nNoiseless uprose, phantasmic, (as by night Auroras of the north,)\nLambent tableaus, prophetic, bodiless scenes,\nSpiritual projections."
+   ]
+  },
+  {
+   "id": 1533,
+   "title": "Macbeth",
+   "author": "William Shakespeare",
+   "track": "drama",
+   "level": 4,
+   "copy": false,
+   "words": 18566,
+   "minutes": 124,
+   "fk": 3.8,
+   "rare": 0.155,
+   "downloads": 7326,
+   "reason": "예언에 사로잡혀 왕을 죽인 맥베스의 몰락. 셰익스피어 비극 가운데 가장 짧습니다.",
+   "excerpts": []
+  },
+  {
+   "id": 246,
+   "title": "Rubáiyát of Omar Khayyám",
+   "author": "Omar Khayyam",
+   "track": "poetry",
+   "level": 4,
+   "copy": true,
+   "words": 11489,
+   "minutes": 77,
+   "fk": 10.7,
+   "rare": 0.136,
+   "downloads": 2712,
+   "reason": "인생의 덧없음을 노래한 4행시 모음의 영어 번역입니다.",
+   "excerpts": [
+    "\"If I myself upon a looser Creed\nHave loosely strung the Jewel of Good deed,\nLet this one thing for my Atonement plead:\nThat One for Two I never did misread.\"",
+    "None answer'd this; but after Silence spake\nA Vessel of a more ungainly Make:\n\"They sneer at me for leaning all awry;\nWhat? did the Hand then of the Potter shake?\"",
+    "And lately, by the Tavern Door agape,\nCame shining through the Dusk an Angel Shape\nBearing a Vessel on his Shoulder; and\nHe bid me taste of it; and 'twas--the Grape!"
+   ]
+  },
+  {
+   "id": 2701,
+   "title": "Moby Dick",
+   "author": "Herman Melville",
+   "track": "novel",
+   "level": 5,
+   "copy": false,
+   "words": 216625,
+   "minutes": 1444,
+   "fk": 10.6,
+   "rare": 0.181,
+   "downloads": 164301,
+   "reason": "흰 고래를 쫓는 에이해브 선장의 집념. 긴 분량과 풍부한 어휘에 도전해 보세요.",
+   "quote": "Call me Ishmael.",
+   "excerpts": [
+    "However, my thoughts were at length carried in other directions, so that for the present dark Ahab slipped my mind.",
+    "But we must let it continue hanging there a while till we can get a chance to attend to it.",
+    "It was about nine o’clock at night that the Pequod’s try-works were first started on this present voyage."
+   ]
+  },
+  {
+   "id": 145,
+   "title": "Middlemarch",
+   "author": "George Eliot",
+   "track": "novel",
+   "level": 5,
+   "copy": false,
+   "words": 320437,
+   "minutes": 2136,
+   "fk": 9.7,
+   "rare": 0.121,
+   "downloads": 85772,
+   "reason": "영국 지방 도시 사람들의 결혼과 이상을 촘촘히 엮은 장편입니다.",
+   "excerpts": [
+    "People should have their own way in marriage, and that sort of thing—up to a certain point, you know.",
+    "It is curious that my mother, too, ran away from her family, but not for the sake of her husband.",
+    "The iron had not entered into his soul, but he had begun to imagine what the sharp edge would be."
+   ]
+  },
+  {
+   "id": 84,
+   "title": "Frankenstein",
+   "author": "Mary Wollstonecraft Shelley",
+   "track": "novel",
+   "level": 5,
+   "copy": false,
+   "words": 75232,
+   "minutes": 502,
+   "fk": 10.1,
+   "rare": 0.135,
+   "downloads": 82024,
+   "reason": "생명을 창조한 과학자와 괴물의 이야기. 편지와 고백이 겹겹이 이어집니다.",
+   "quote": "Beware; for I am fearless, and therefore powerful.",
+   "excerpts": [
+    "Shut in, however, by ice, it was impossible to follow his track, which we had observed with the greatest attention.",
+    "After he had been employed thus about an hour, the young woman joined him and they entered the cottage together.",
+    "He sprang from the cabin-window as he said this, upon the ice raft which lay close to the vessel."
+   ]
+  },
+  {
+   "id": 1184,
+   "title": "The Count of Monte Cristo",
+   "author": "Alexandre Dumas",
+   "track": "novel",
+   "level": 5,
+   "copy": false,
+   "words": 467004,
+   "minutes": 3113,
+   "fk": 8.7,
+   "rare": 0.118,
+   "downloads": 65180,
+   "reason": "억울하게 갇힌 청년의 탈옥과 치밀한 복수극입니다.",
+   "excerpts": [
+    "Dantès followed him with his eyes, and stretched forth his hands towards the open door; but the door closed.",
+    "Now, then, to play another master-stroke, by which I shall gain the heart of both husband and wife—delightful!",
+    "The window whence the noise proceeded was opposite the opening by which the count could see into the dressing-room."
+   ]
+  },
+  {
+   "id": 2600,
+   "title": "War and Peace",
+   "author": "Tolstoy, Leo, graf",
+   "track": "novel",
+   "level": 5,
+   "copy": false,
+   "words": 576802,
+   "minutes": 3845,
+   "fk": 8.3,
+   "rare": 0.135,
+   "downloads": 35526,
+   "reason": "나폴레옹 전쟁기 러시아 귀족 가문들의 삶을 그린 대하소설입니다.",
+   "excerpts": [
+    "There she paused and stood listening to the conversation in the drawing room, waiting for Borís to come out.",
+    "In spite of my wish to see you, I do not think so and do not want to do so.",
+    "Prince Andrew opened his eyes and for a long time could not make out what was going on around him."
+   ]
+  },
+  {
+   "id": 55201,
+   "title": "The Republic",
+   "author": "Plato",
+   "track": "nonfiction",
+   "level": 5,
+   "copy": false,
+   "words": 236215,
+   "minutes": 1575,
+   "fk": 12.5,
+   "rare": 0.141,
+   "downloads": 34962,
+   "reason": "정의란 무엇인가를 대화로 따져 묻는 철학 고전입니다.",
+   "excerpts": [
+    "The greatest happiness of all is, as we believe, the far-off result of the divine government of the universe.",
+    "Yes, he replied, such is very often the case; but what has that to do with us and our argument?",
+    "Then the lover of wisdom has a great advantage over the lover of gain, for he has a double experience?"
+   ]
+  },
+  {
+   "id": 20,
+   "title": "Paradise Lost",
+   "author": "John Milton",
+   "track": "poetry",
+   "level": 5,
+   "copy": true,
+   "words": 80168,
+   "minutes": 534,
+   "fk": 21.4,
+   "rare": 0.215,
+   "downloads": 31577,
+   "reason": "타락한 천사와 인간의 이야기를 그린 장편 서사시입니다.",
+   "excerpts": [
+    "He spake: and to confirm his words, out-flew\nMillions of flaming swords, drawn from the thighs\nOf mighty Cherubim; the sudden blaze\nFar round illumin’d hell: highly they rag’d",
+    "Thus farr his bold discourse without controule\nHad audience, when among the Seraphim\nAbdiel, then whom none with more zeale ador’d\nThe Deitie, and divine commands obei’d,",
+    "So having said, as one from sad dismay\nRecomforted, and after thoughts disturbd\nSubmitting to what seemd remediless,\nThus in calme mood his Words to Eve he turnd."
+   ]
+  },
+  {
+   "id": 1232,
+   "title": "The Prince",
+   "author": "Niccolò Machiavelli",
+   "track": "nonfiction",
+   "level": 5,
+   "copy": false,
+   "words": 49828,
+   "minutes": 332,
+   "fk": 16.7,
+   "rare": 0.128,
+   "downloads": 30136,
+   "reason": "권력을 얻고 지키는 법을 냉정하게 분석한 정치 고전입니다.",
+   "excerpts": [
+    "Men will not look at things as they really are, but as they wish them to be—and are ruined.",
+    "We have not seen great things done in our time except by those who have been considered mean; the rest have failed.",
+    "Being informed of the circumstances of the bringing up of Castruccio he felt a greater desire to have him near to him."
+   ]
+  },
+  {
+   "id": 164,
+   "title": "Twenty Thousand Leagues under the Sea",
+   "author": "Jules Verne",
+   "track": "novel",
+   "level": 5,
+   "copy": false,
+   "words": 105185,
+   "minutes": 701,
+   "fk": 7.8,
+   "rare": 0.151,
+   "downloads": 28142,
+   "reason": "잠수함 노틸러스호를 타고 떠나는 해저 탐험 소설입니다.",
+   "excerpts": [
+    "And you think that I am going to send you back to that world which must know me no more?",
+    "I shall be glad to have made it; but, now that it is made, let us have done with it.",
+    "But everyone had looked the danger in the face, and each was determined to do his duty to the last."
+   ]
+  },
+  {
+   "id": 829,
+   "title": "Gulliver's Travels",
+   "author": "Jonathan Swift",
+   "track": "novel",
+   "level": 5,
+   "copy": false,
+   "words": 105379,
+   "minutes": 703,
+   "fk": 15.5,
+   "rare": 0.134,
+   "downloads": 27885,
+   "reason": "소인국과 거인국을 여행하며 인간 사회를 풍자하는 이야기입니다.",
+   "excerpts": [
+    "I was in a terrible fright, and kept as far as I could from the edge, for fear of falling.",
+    "I longed to see the ocean, which must be the only scene of my escape, if ever it should happen.",
+    "At last I beheld several animals in a field, and one or two of the same kind sitting in trees."
+   ]
+  },
+  {
+   "id": 1041,
+   "title": "Shakespeare's Sonnets",
+   "author": "William Shakespeare",
+   "track": "poetry",
+   "level": 5,
+   "copy": true,
+   "words": 17762,
+   "minutes": 118,
+   "fk": 13.1,
+   "rare": 0.159,
+   "downloads": 26975,
+   "reason": "셰익스피어 소네트 154편. 옛 영어 표현에 도전하는 필사용 시집입니다.",
+   "excerpts": []
+  },
+  {
+   "id": 521,
+   "title": "Robinson Crusoe",
+   "author": "Daniel Defoe",
+   "track": "novel",
+   "level": 5,
+   "copy": false,
+   "words": 121570,
+   "minutes": 810,
+   "fk": 20.4,
+   "rare": 0.082,
+   "downloads": 26236,
+   "reason": "무인도에서 홀로 살아남은 크루소의 생존 기록입니다.",
+   "excerpts": [
+    "I asked him why he would go? why I should not go, and he stay in the boat?",
+    "Sure we are all made by some secret Power, who formed the earth and sea, the air and sky.",
+    "I inquired if he could tell me how I might go from this island, and get among those white men."
+   ]
+  },
+  {
+   "id": 25344,
+   "title": "The Scarlet Letter",
+   "author": "Nathaniel Hawthorne",
+   "track": "novel",
+   "level": 5,
+   "copy": false,
+   "words": 85014,
+   "minutes": 567,
+   "fk": 11.4,
+   "rare": 0.155,
+   "downloads": 24256,
+   "reason": "청교도 마을에서 주홍 글자를 달고 살아가는 헤스터의 이야기입니다.",
+   "excerpts": [
+    "She knew that her deed had been evil; she could have no faith, therefore, that its result would be good.",
+    "Let men tremble to win the hand of woman, unless they win along with it the utmost passion of her heart!",
+    "Here, seen only by his eyes, the scarlet letter need not burn into the bosom of the fallen woman!"
+   ]
+  },
+  {
+   "id": 205,
+   "title": "Walden",
+   "author": "Henry David Thoreau",
+   "track": "nonfiction",
+   "level": 5,
+   "copy": true,
+   "words": 116916,
+   "minutes": 779,
+   "fk": 11.8,
+   "rare": 0.155,
+   "downloads": 23094,
+   "reason": "숲속 오두막에서 2년을 산 기록. 삶을 돌아보게 하는 문장이 많아 필사하기 좋습니다.",
+   "quote": "I went to the woods because I wished to live deliberately",
+   "excerpts": [
+    "But in other directions, even from this point, I could not see over or beyond the woods which surrounded me.",
+    "I have, as it were, my own sun and moon and stars, and a little world all to myself.",
+    "But no friendly Indian concerned himself about me; nor needed he, for the master of the house was at home."
+   ]
+  },
+  {
+   "id": 135,
+   "title": "Les Misérables",
+   "author": "Victor Hugo",
+   "track": "novel",
+   "level": 5,
+   "copy": false,
+   "words": 572326,
+   "minutes": 3816,
+   "fk": 7.6,
+   "rare": 0.154,
+   "downloads": 20122,
+   "reason": "장 발장의 삶을 따라 19세기 프랑스 사회를 그린 대작입니다.",
+   "excerpts": [
+    "I say to you, who are passing by, that you are much more at home here than I am myself.",
+    "We must go away from this house, but we shall return to it, and we shall be very happy here.",
+    "It would be difficult to say what vague thought he had in his mind when he took them with him."
+   ]
+  },
+  {
+   "id": 27761,
+   "title": "Hamlet",
+   "author": "William Shakespeare",
+   "track": "drama",
+   "level": 5,
+   "copy": false,
+   "words": 29223,
+   "minutes": 195,
+   "fk": 3.9,
+   "rare": 0.139,
+   "downloads": 17309,
+   "reason": "복수와 망설임 사이에서 고뇌하는 왕자 햄릿의 비극입니다.",
+   "quote": "To be, or not to be",
+   "excerpts": []
+  }
+ ]
+}

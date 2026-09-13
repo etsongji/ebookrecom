@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# data build cache (downloaded Gutenberg texts and download counts)
+/scripts/.cache/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
