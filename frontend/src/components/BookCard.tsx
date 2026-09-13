@@ -1,5 +1,6 @@
 import PencilMeter from './PencilMeter';
 import { LEVEL_MAX, levelOf } from '../lib/levels';
+import { storytelSearchUrl } from '../lib/links';
 
 interface BookCardProps {
   title: string;
@@ -31,9 +32,14 @@ export default function BookCard({ title, author, url, level, reason, meta = [] 
         </p>
       )}
       {reason && <p className="book-reason">{reason}</p>}
-      <a className="btn btn-ghost btn-sm book-link" href={url} target="_blank" rel="noopener noreferrer">
-        원문 읽기 <span aria-hidden="true">↗</span>
-      </a>
+      <div className="book-links">
+        <a className="btn btn-ghost btn-sm" href={url} target="_blank" rel="noopener noreferrer">
+          원문 읽기 <span aria-hidden="true">↗</span>
+        </a>
+        <a className="text-link" href={storytelSearchUrl(title)} target="_blank" rel="noopener noreferrer">
+          스토리텔에서 오디오북 찾기 <span aria-hidden="true">↗</span>
+        </a>
+      </div>
     </article>
   );
 }

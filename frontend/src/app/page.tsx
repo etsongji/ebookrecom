@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useEffect, useState, type FormEvent } from 'react';
 import PencilMeter from '../components/PencilMeter';
 import { LEVEL_MAX, formatMinutes, levelOf } from '../lib/levels';
+import { storytelSearchUrl } from '../lib/links';
 import type { DailyPick } from '../lib/types';
 
 type LoadStatus = 'loading' | 'ready' | 'error';
@@ -134,6 +135,14 @@ export default function Home() {
                 <Link className="btn btn-ghost" href="/recommendations">
                   다른 책 보기
                 </Link>
+                <a
+                  className="text-link"
+                  href={storytelSearchUrl(dailyPick.title)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  스토리텔에서 오디오북 찾기 <span aria-hidden="true">↗</span>
+                </a>
               </div>
             </div>
 

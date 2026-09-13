@@ -280,6 +280,7 @@ main.page {
 .actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 10px;
   margin-top: 18px;
 }
@@ -554,9 +555,22 @@ main.page {
   font-size: 0.95rem;
 }
 
-.book-link {
-  align-self: flex-start;
+.book-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
   margin-top: auto;
+}
+
+.text-link {
+  font-size: 0.9rem;
+  color: var(--pen);
+  text-underline-offset: 3px;
+}
+
+.text-link:hover {
+  color: var(--ink);
 }
 
 /* ---------- inner pages ---------- */
