@@ -85,6 +85,7 @@ export default function Home() {
 
         <div className="quick-links">
           <Link href="/recommendations">수준별 추천 도서 보기</Link>
+          <Link href="/quotes">명언 한 문장 따라 쓰기</Link>
           <Link href="/search?q=poems">필사하기 좋은 시집 찾기</Link>
         </div>
       </section>

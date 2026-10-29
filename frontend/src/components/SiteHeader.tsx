@@ -7,6 +7,7 @@ import { useState } from 'react';
 const NAV_ITEMS = [
   { href: '/', label: '홈' },
   { href: '/recommendations', label: '추천 도서' },
+  { href: '/quotes', label: '명언 필사' },
   { href: '/search', label: '검색' },
 ];
 

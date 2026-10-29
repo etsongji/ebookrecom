@@ -631,3 +631,204 @@ main.page {
     transition: none !important;
   }
 }
+
+/* ---------- 명언 필사 ---------- */
+.quote-tally {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 32px;
+  align-items: baseline;
+  margin: 8px 0 24px;
+  padding: 16px 20px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--card);
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+
+.quote-tally p {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin: 0;
+}
+
+.quote-tally strong {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.quote-tally-note {
+  flex-basis: 100%;
+}
+
+.quote-list {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.quote-card {
+  padding: 20px 22px;
+}
+
+.quote-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 12px;
+}
+
+.quote-en {
+  margin: 6px 0 0;
+  font-size: clamp(1.3rem, 3.2vw, 1.75rem);
+  font-style: italic;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.quote-gloss {
+  margin: 10px 0 0;
+  font-family: var(--font-gowun), serif;
+  color: var(--graphite);
+}
+
+.quote-source {
+  margin: 12px 0 14px;
+  font-size: 0.95rem;
+}
+
+.quote-source cite {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.quote-practice {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--line);
+}
+
+.quote-trace {
+  margin: 0;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px dashed var(--line);
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  color: var(--pen);
+}
+
+.quote-check {
+  margin: 14px 0 10px;
+  font-family: var(--font-plex-mono), ui-monospace, Consolas, monospace;
+  font-size: 1rem;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.quote-check .ch {
+  color: var(--line);
+}
+
+.quote-check .ch.ok {
+  color: var(--ink);
+}
+
+.quote-check .ch.bad {
+  color: var(--danger);
+  background: color-mix(in srgb, var(--danger) 16%, transparent);
+  text-decoration: underline wavy;
+}
+
+.quote-check .ch.at {
+  color: var(--graphite);
+  box-shadow: inset 2px 0 0 var(--pen);
+}
+
+.quote-input {
+  width: 100%;
+  height: auto;
+  min-height: 72px;
+  padding: 10px 14px;
+  font-family: var(--font-plex-mono), ui-monospace, Consolas, monospace;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.quote-score {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
+  margin-top: 10px;
+}
+
+.quote-score p {
+  margin: 0;
+}
+
+/* ---------- hand-copying sheet (print only) ---------- */
+.print-sheet {
+  display: none;
+}
+
+@media print {
+  body {
+    background-image: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+
+  .sheet::before,
+  .site-header,
+  .site-footer,
+  .no-print {
+    display: none !important;
+  }
+
+  .page {
+    padding: 0;
+  }
+
+  .print-sheet {
+    display: block;
+  }
+
+  .print-sheet h2 {
+    margin: 0 0 14pt;
+    font-size: 15pt;
+  }
+
+  .print-item {
+    margin-bottom: 16pt;
+    break-inside: avoid;
+  }
+
+  .print-en {
+    margin: 0;
+    font-size: 13pt;
+    font-style: italic;
+    line-height: 1.4;
+  }
+
+  .print-src {
+    margin: 2pt 0 10pt;
+    font-size: 8.5pt;
+    color: #555;
+  }
+
+  .print-rule {
+    display: block;
+    height: 22pt;
+    border-bottom: 0.5pt solid #999;
+  }
+}

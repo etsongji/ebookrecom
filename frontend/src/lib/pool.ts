@@ -23,19 +23,8 @@ export function toSummary(book: PoolBook): BookSummary {
   };
 }
 
-// Recommendations turn over at midnight in Korea, not UTC.
-export function todayInKorea(): string {
-  return new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Asia/Seoul',
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  }).format(new Date());
-}
-
-export function isIsoDate(value: string | null): value is string {
-  return value !== null && /^\d{4}-\d{2}-\d{2}$/.test(value);
-}
+// Date helpers live in ./dates so client components can use them without this file.
+export { isIsoDate, todayInKorea } from './dates';
 
 export function dateSeed(key: string): number {
   let hash = 2166136261;

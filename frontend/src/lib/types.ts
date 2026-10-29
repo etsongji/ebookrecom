@@ -43,3 +43,16 @@ export interface DailyPick extends BookSummary {
   quote: string;
   quoteKind: 'famous' | 'excerpt';
 }
+
+// One famous line on the 명언 필사 page. Plain data so it can cross to a client component.
+export interface Quote {
+  bookId: number;
+  text: string;
+  gloss: string;
+  title: string;
+  author: string;
+  level: number;
+  url: string;
+  words: number;
+  chars: number;
+}
